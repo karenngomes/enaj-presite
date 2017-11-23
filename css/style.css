@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth|Bahiana|Kaushan+Script|Lobster|Permanent+Marker|Satisfy');
+@font-face { font-family: 'Edo'; src: url('../fonts/edosz.ttf'); } 	
+@font-face {
+	font-family: 'Gotham-Regular';
+	src: url('../fonts/Gotham-Book.otf');
+}
+
+* {
+	padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+	font-size: 14px;
+}
+
+.content {
+	background-image: url(../img/background-site.png); 
+	height: 675px;
+}
+
+.middle {
+    position: absolute;
+    top: 15%;
+    left: 62%;
+    transform: translate(-40%, -34%);
+    text-align: center;
+    width: 300px;
+}
+
+.middle h3 {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 22px;
+}
+
+.loading {
+	font-family: 'Edo', cursive;
+	font-size: 55px;
+	color: #3329a7;
+}
+
+.loading:after {
+	font-family: 'Permanent Marker', cursive;
+  	overflow: hidden;
+  	display: inline-block;
+  	vertical-align: bottom;
+  -webkit-animation: ellipsis steps(4,end) 2000ms infinite;      
+  	animation: ellipsis steps(4,end) 2000ms infinite;
+  	content: "\2026"; /* ascii code for the ellipsis character */
+  	width: 0px;
+}
+@keyframes ellipsis {
+  to {
+    width: 50px;    
+  }
+}
+
+@-webkit-keyframes ellipsis {
+  to {
+    width: 50px;    
+  }
+}
+
+#contagem {
+    color: #1b1e21;
+    text-align: center;
+    position: relative;
+    display: inline-flex;
+}
+
+.contador {
+    font-size: 30px;
+    padding: 8px;
+    font-family: 'Bahiana', cursive;
+}
+
+.tab-content h3 {
+	font-family: 'Satisfy', cursive;
+	color: black;
+	font-size: 2.1rem;
+}
+
+.middle h3 {
+	font-family: 'Bahiana', cursive;
+}
+
+.middle-content {
+    position: absolute;
+    top: 297px;
+    left: 62%;
+    transform: translate(-40%, -24%);
+    text-align: center;
+    width: 365px;
+}
+
+.middle-content h3 {
+	font-family: 'Bahiana', cursive;
+}
+
+#tab2show p {
+	font-family: 'Gotham-Regular';
+	color: black;
+	font-size: 13.5px;
+}
+
+.tab-content hr {
+    width: 65px;
+    border: 0;
+    border-top: 3px solid rgba(0,0,0,.1);
+}
+.col-get-in-touch {
+	font-family: 'Gotham-Regular';
+}
+
+.col-get-in-touch address {
+	color:#666;
+	font-family: Arial;
+	font-size: 14px;
+	margin-bottom: 6px;
+}
+.col-get-in-touch address span {
+	display: inline-block;
+}
+.col-get-in-touch address i {
+	position: relative;
+	top: -14px;
+}
+.col-get-in-touch h5 {
+	font-family: 'Gotham-Regular';
+	color: black;
+	height: 13px;
+}
+
+#phones {
+	display: inline-flex;
+}
+.col-get-in-touch i {
+	color: black;
+	font-size: 20px;
+	margin: 0 6px;
+	position: relative;
+    top: 3px;
+
+}
+.col-get-in-touch a {
+	color: black;
+}
+.col-get-in-touch p {
+	line-height: 20px;
+}
+.list-socials {
+	margin-top: 4px;
+	position: relative;
+
+}
+.list-socials li {
+	display: inline-block;
+	margin-right: 8px;
+}
+
+.list-socials a {
+	display: block;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+}
+.list-socials i {
+	font-size: 18px;
+	margin: 7px auto;
+	color: black;
+}
+
+.float-right {
+	position: absolute;
+	transform: translate(-40%, -34%);
+	top: 24%;
+    right: 6%;
+}
+
+#tab2, #tab3 {
+	background: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    border-bottom: solid 2px #a21c1c;
+    border-right: solid 2px #a21c1c;
+    font-family: 'Bahiana', cursive;
+    padding: 5px;
+    font-size: 27px;
+    margin: 8px;
+    width: 110px;
+    color: black;
+    cursor: pointer;
+}
+
+footer {
+	position: absolute;
+	bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -300%);
+    /* text-align: center; */
+    width: 510px;
+}
+
+.form-control {
+	font-size: 21px;
+	font-family: 'Bahiana', cursive;
+}
+
+.btn-notify {
+    color: white;
+    background-color: #28a745;
+    background-image: none;
+    border-color: #28a745;
+    font-family: 'Bahiana', cursive;
+    font-size: 21px;
+}
